@@ -5,7 +5,8 @@ The project is devided into two sections, the Mialreader server, which serves yo
 * You need need to replace the contents of the credentials.json file with your own credentials that you got from google, Google gives you a credentail that you can use to test apps, without this credential the mail server won't run
 * The mails server also allows you to send text and get an audio file back which you can use
 * Note: The server is not authenticated to be able to handle secure web traffic, at best this application should be used on your local network and not published unless modified to be able to handle secure web traffic among other things
-# and Front end application
+* 
+# Front end application
 
 The Front end application basically shows you how you can combine the two functionalities of the Mailserver to get a simple application working, the Front end uses HTML, CSS and JS 
 
