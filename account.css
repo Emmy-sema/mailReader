@@ -1,0 +1,46 @@
+body{
+	background: black;
+	margin-top:200px;
+}
+.contain{
+	width:800px;
+	margin:auto;
+}
+h1{
+	color: white;
+	text-align: center;
+
+}
+.info{
+	display: flex;
+	justify-content: space-between;
+}
+.label{
+	color:red;
+}
+.date{
+	color: grey;
+	font-size: 12px;
+}
+.from{
+	color: grey;
+	font-size: 12px;
+}
+.card{
+	color:black;
+	font:italic;
+	background: white;
+	padding:2rem;
+	margin-bottom: 2rem;
+}
+.email{
+	padding:1rem;
+}
+button{
+	background: green;
+	width: 70px;
+	padding:.5rem;
+	border-radius: .5rem;
+	cursor: pointer;
+	margin:1rem;
+}

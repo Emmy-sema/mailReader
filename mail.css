@@ -1,0 +1,39 @@
+body{
+	background: black;
+	color:white;
+}
+.contain{
+	text-align: center;
+	padding:5rem;
+}
+.small{
+	font-size: 12px;
+	text-align: center;
+
+}
+form{
+	color: black;
+	width: 300px;
+	margin:auto auto;
+	background: white;
+	padding:3rem;
+	border-radius: .4rem;
+}
+.gmail, .password{
+	display: grid;
+	grid-template-columns: auto;
+	padding: 1rem;
+}
+
+button{
+	background: green;
+	width: 150px;
+	padding:.5rem;
+	border-radius: .5rem;
+	cursor: pointer;
+	margin:1rem;
+}
+INPUT[type = text],INPUT[type = password] {
+	width: 150px;
+	height: 20px;
+}
